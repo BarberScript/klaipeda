@@ -20,41 +20,42 @@
     <div id="calculatorContainer">
         <label for="sum"></label>
         <input
-                type="tel"
-        id="sum"
-        class="styledInput"
-        placeholder="Total, work, work"
-        required
-        pattern="^\d+(\.\d+)?$"
-        min="0"
+                type="number"
+                id="sum"
+                class="styledInput"
+                placeholder="Total, work, work"
+                required
+                step="any"
+                min="0"
         />
 
         <label for="additionalValue"></label>
         <input
-                type="tel"
-        id="additionalValue"
-        class="styledInput"
-        placeholder="Additional value"
-        required
-        pattern="^\d+(\.\d+)?$"
-        min="0"
+                type="number"
+                id="additionalValue"
+                class="styledInput"
+                placeholder="Additional value"
+                required
+                step="any"
+                min="0"
         />
 
         <label for="hours"></label>
         <input
-                type="tel"
-        id="hours"
-        class="styledInput"
-        placeholder="My busy hours, leave me alone!"
-        required
-        pattern="^\d+(\.\d+)?$"
-        min="0"
+                type="number"
+                id="hours"
+                class="styledInput"
+                placeholder="My busy hours, leave me alone!"
+                required
+                step="any"
+                min="0"
         />
 
         <button class="btn-magic" id="rippleButton" type="button" onclick="calculateSalary()">
             Okie Dokie
         </button>
     </div>
+
 
 
 
